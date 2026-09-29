@@ -1,5 +1,14 @@
 # @modelcontextprotocol/server
 
+## 2.2.1
+
+### Patch Changes
+
+- [#2889](https://github.com/modelcontextprotocol/typescript-sdk/pull/2889) [`4d94e7b`](https://github.com/modelcontextprotocol/typescript-sdk/commit/4d94e7b1ccf769d94a7bbba7789f1ee6c7dfdd8c) Thanks [@claude](https://github.com/apps/claude)! - `registerTool` no longer converts tool schemas up front, so a server built per request stops converting every tool on every request. The warning about an invalid `x-mcp-header` declaration now appears each time tools are listed, not when the tool is registered.
+
+- Updated dependencies []:
+    - @modelcontextprotocol/core@2.2.1
+
 ## 2.2.0
 
 ### Patch Changes
